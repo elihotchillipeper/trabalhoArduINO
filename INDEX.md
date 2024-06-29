@@ -45,6 +45,8 @@ Seguindo esses passos, você poderá instalar e executar o programa no seu Ardui
 
 
 # Contribuição
+
+Para os contribuidores deste projeto, seu papel é essencial para melhorar e expandir o programa. Suas contribuições não apenas fortalecem o código existente, mas também enriquecem a comunidade Arduino, impactando positivamente o aprendizado e a inovação na tecnologia embarcada.
    
 
 
