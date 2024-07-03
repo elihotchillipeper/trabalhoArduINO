@@ -3,8 +3,7 @@
 Bem-vindo ao nosso projeto. Aqui você encontrará informações sobre a instalação, uso e detalhes do sistema.
 
 # Visão Geral
-
-
+O código implementado configura inicialmente os pinos do microcontrolador, especificando quais serão utilizados como entradas para receber os bits de dois conjuntos de quatro bits (`nib1` e `nib2`) e quais serão saídas para enviar os resultados da soma e o bit de transporte. Durante a execução no loop principal, o programa aguarda um sinal no pino `13` para começar a soma binária. Quando o sinal é recebido, ele lê os valores dos pinos de entrada, inicializa o bit de transporte, e calcula iterativamente a soma de cada par de bits utilizando funções específicas. Os resultados são então enviados para os pinos de saída correspondentes, permitindo que sejam utilizados por outros dispositivos ou circuitos conectados. O código opera de maneira contínua, aguardando repetidamente novos sinais no pino `13` para iniciar novas operações de soma conforme necessário.
 
 # Instalação
 
@@ -43,7 +42,17 @@ Seguindo esses passos, você poderá instalar e executar o programa no seu Ardui
 
 # Uso
 
-Para utilizar o software implementado, primeiro é necessário conectar o hardware conforme especificado nos pinos indicados pelo código, como entradas para os bits dos conjuntos `nib1` e `nib2`, e saídas para os resultados da soma e o bit de transporte. Uma vez carregado o código no dispositivo, o programa espera um sinal no pino `13` para iniciar a operação. Quando esse sinal é recebido (`soma == 1`), ele calcula a soma binária dos conjuntos de quatro bits, utilizando funções para determinar tanto os resultados individuais de cada bit como o bit de transporte. Os resultados são então enviados para os pinos de saída correspondentes, permitindo a interpretação visual ou a utilização desses valores conforme necessário para aplicações subsequentes.
+### Para usar o software:
+
+1. **Conexão e Configuração**: Conecte os bits dos conjuntos `nib1` e `nib2` aos pinos de entrada (`0` a `7`) e os pinos de saída (`8` a `12`) para os resultados da soma e o bit de transporte. Carregue o código no hardware usando a IDE do Arduino.
+
+2. **Início da Operação**: O programa espera um sinal no pino `13` para começar a soma binária.
+
+3. **Processamento da Soma**: Quando o sinal no pino `13` é recebido (`soma == 1`), ele calcula a soma dos bits utilizando funções específicas para cada bit e atualiza o bit de transporte.
+
+4. **Saída dos Resultados**: Os resultados da soma e o bit de transporte são enviados aos pinos de saída `8` a `12`, prontos para serem utilizados por outros dispositivos ou circuitos.
+
+5. **Execução Contínua**: O programa repete esses passos continuamente, aguardando um novo sinal no pino `13` para iniciar uma nova operação de soma.
 
 
 # Contribuição
