@@ -43,6 +43,8 @@ Seguindo esses passos, você poderá instalar e executar o programa no seu Ardui
 
 # Uso
 
+Para utilizar o software implementado, primeiro é necessário conectar o hardware conforme especificado nos pinos indicados pelo código, como entradas para os bits dos conjuntos `nib1` e `nib2`, e saídas para os resultados da soma e o bit de transporte. Uma vez carregado o código no dispositivo, o programa espera um sinal no pino `13` para iniciar a operação. Quando esse sinal é recebido (`soma == 1`), ele calcula a soma binária dos conjuntos de quatro bits, utilizando funções para determinar tanto os resultados individuais de cada bit como o bit de transporte. Os resultados são então enviados para os pinos de saída correspondentes, permitindo a interpretação visual ou a utilização desses valores conforme necessário para aplicações subsequentes.
+
 
 # Contribuição
 
