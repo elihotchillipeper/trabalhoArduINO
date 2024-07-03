@@ -54,6 +54,14 @@ Seguindo esses passos, você poderá instalar e executar o programa no seu Ardui
 
 5. **Execução Contínua**: O programa repete esses passos continuamente, aguardando um novo sinal no pino `13` para iniciar uma nova operação de soma.
 
+# License
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
 
 # Contribuição
 
