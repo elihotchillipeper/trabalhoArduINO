@@ -3,7 +3,7 @@ This Arduino program facilitates binary addition of 4-bit numbers using a full a
 
 
 ### SUMARY
-- [instalation](./docs)
+- [instalation.md](./docs)
   
 - [overview](./docs)
   
