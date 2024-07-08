@@ -5,10 +5,10 @@ Welcome to the documentation of the software 'Binary Sum Project'! This software
 
 - [index](https://github.com/elihotchillipeper/trabalhoArduINO/blob/199ca7e85e1c0a33e1c23121bcbb65414c679522/docs/index.md)
 
-- [instalation](./docs)
+- [instalation](https://github.com/elihotchillipeper/trabalhoArduINO/blob/199ca7e85e1c0a33e1c23121bcbb65414c679522/docs/instalation.md)
   
-- [overview](./docs)
+- [overview](https://github.com/elihotchillipeper/trabalhoArduINO/blob/199ca7e85e1c0a33e1c23121bcbb65414c679522/docs/overview.md)
   
-- [license](./docs)
+- [license](https://github.com/elihotchillipeper/trabalhoArduINO/blob/199ca7e85e1c0a33e1c23121bcbb65414c679522/docs/license)
 
-- [contribuiting](./docs)
+- [contribuiting](https://github.com/elihotchillipeper/trabalhoArduINO/blob/199ca7e85e1c0a33e1c23121bcbb65414c679522/docs/contribuiting.md)
